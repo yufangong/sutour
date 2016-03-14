@@ -1,0 +1,51 @@
+﻿@model final1.Models.CityImage
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/layout2.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>CityImage</h4>
+	<hr />
+    <dl class="dl-horizontal">
+        @*<dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>*@
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Annotation)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Annotation)
+        </dd>
+
+        @*<dt>
+            @Html.DisplayNameFor(model => model.UploadTime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UploadTime)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Uploader)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Uploader)
+        </dd>*@
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

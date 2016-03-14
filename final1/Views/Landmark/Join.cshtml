@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "Join";
+    Layout = "~/Views/Shared/layout2.cshtml";
+}
+
+<h2>Join</h2>
+<table class="table">
+            @foreach (var item in ViewBag.ImagesOfLandmark)
+            {
+                <tr>
+                    <td class="tourimage"><img class="img" src="~/Content/pic/@item.Name.ToString()"></td>
+                    <td class="textdiv">@item.Annotation.ToString()</td>
+                </tr>
+            }
+</table>

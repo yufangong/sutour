@@ -1,0 +1,69 @@
+﻿@model IEnumerable<final1.Models.Image>
+
+<div class="headerImg">
+    <img class="img" src="@Url.Content("~/Content/header/4.jpg")">
+</div>
+
+@{
+    ViewBag.Title = "Home Page";
+}
+<div class="container body-content">
+    <div class="mainpage">
+        <div class="eventdiv">
+            @Html.ActionLink("Events", "Events", "XMLEvent")
+        </div>
+
+        <div class="leftimage">
+            <center><h4>City of Syracuse</h4></center>
+            <div class="imagediv"><a href="@Url.Action("Details", "City", new { id = ViewBag.CityID[0] })"><div><img class="img" src="~/Content/citypic/@ViewBag.CityImage[0]" alt=""></div><div>@ViewBag.Cityannotation[0]</div></a></div>
+            <div class="imagediv"><a href="@Url.Action("Details", "City", new { id = ViewBag.CityID[1] })"><div><img class="img" src="~/Content/citypic/@ViewBag.CityImage[1]" alt=""></div><div>@ViewBag.Cityannotation[1]</div></a></div>
+            <div class="imagediv"><a href="@Url.Action("Details", "City", new { id = ViewBag.CityID[2] })"><div><img class="img" src="~/Content/citypic/@ViewBag.CityImage[2]" alt=""></div><div>@ViewBag.Cityannotation[2]</div></a></div>
+        </div>
+        <div class="leftimage">
+            <center><h4>Photos of Syracuse University</h4></center>
+            <div class="imagediv"><a href="@Url.Action("Details", "Image", new { id = ViewBag.dbid[0] })"><div><img class="img" src="~/Content/pic/@ViewBag.dbimage[0]" alt=""></div><div>@ViewBag.dbannotation[0]</div></a></div>
+            <div class="imagediv"><a href="@Url.Action("Details", "Image", new { id = ViewBag.dbid[1] })"><div><img class="img" src="~/Content/pic/@ViewBag.dbimage[1]" alt=""></div><div>@ViewBag.dbannotation[1]</div></a></div>
+            <div class="imagediv"><a href="@Url.Action("Details", "Image", new { id = ViewBag.dbid[2] })"><div><img class="img" src="~/Content/pic/@ViewBag.dbimage[2]" alt=""></div><div>@ViewBag.dbannotation[2]</div></a></div>
+        </div>
+        <div class="textdiv">
+            <center><h3>City Of Syracuse</h3></center>
+            <p>
+                Syracuse (/ˈsɪrəkjuːs/ or local /ˈsɛrəkjuːs/) is a city in, and the county seat of, Onondaga County, New York, United States. It is the largest U.S. city with the name "Syracuse", and is the fifth most populous city in the state of New York.[1] At the 2010 census, the city's population was 145,170 (making it the 175th largest city in the country), and the metropolitan area had a population of 662,577. It is the economic and educational hub of Central New York, a region with over a million inhabitants. Syracuse is well provided with convention sites, with a downtown convention complex and, directly west, the Empire Expo Center, which hosts the annual Great New York State Fair. The city derives its name from Siracusa on the eastern coast of the Italian island of Sicily.
+            </p>
+        </div>
+
+        <div class="textdiv">
+            <center><h3>Syracuse University Brief Introduction</h3></center>
+            Syracuse University, commonly referred to as Syracuse, 'Cuse, or SU, is a private research university located in Syracuse, New York. The institution's roots can be traced to the Genesee Wesleyan Seminary (later becoming Genesee College), founded by the Methodist Episcopal Church in Lima, New York, in 1831. Following several years of debate over relocating the college to Syracuse, the university was established in 1870, independent of the college. Since 1920, the university has identified itself as nonsectarian, although it maintains a relationship with The United Methodist Church.
+            The campus is located in the University Hill neighborhood of Syracuse, east and southeast of downtown, on one of the larger hills. Its large campus features an eclectic mix of buildings, ranging from nineteenth-century Romanesque Revival structures to contemporary buildings. SU is organized into 13 schools and colleges, with nationally recognized programs in information studies and library science, architecture, communications, business administration, sport management, public administration, engineering and the College of Arts and Sciences.
+            Syracuse University athletic teams, known as the Orange, participate in 20 intercollegiate sports. SU is a member of the Atlantic Coast Conference for all NCAA Division I athletics, except for women's ice hockey, and the rowing team. SU is also a member of the Eastern College Athletic Conference.
+        </div>
+    </div>
+    </div>
+    @*<div class="jumbotron">
+            <h1>ASP.NET</h1>
+            <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
+            <p><a href="http://asp.net" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+        </div>*@
+
+    @*<div class="row">
+            <div class="col-md-4">
+                <h2>Getting started</h2>
+                <p>
+                    ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
+                    enables a clean separation of concerns and gives you full control over markup
+                    for enjoyable, agile development.
+                </p>
+                <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+            </div>
+            <div class="col-md-4">
+                <h2>Get more libraries</h2>
+                <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
+                <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+            </div>
+            <div class="col-md-4">
+                <h2>Web Hosting</h2>
+                <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
+                <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+            </div>
+        </div>*@

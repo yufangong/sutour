@@ -1,0 +1,95 @@
+﻿@{
+    Layout = "~/Views/Shared/layout2.cshtml";
+}
+
+@model final1.Models.XMLEvent
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Event</h4>
+        <hr />
+        @Html.ValidationSummary(true)
+        @Html.HiddenFor(model => model.id)
+
+        <!--
+          Below, changed the default Html.EditFor to Html.TextBoxFor.
+          You can't style the EditFor due to its template definition
+          but you can style TextBoxFor.  I wanted wider fields so I
+          made this change and added an edit-field class to the Site.css.
+        -->
+        @*<div class="form-group">
+            @Html.LabelFor(model => model.eventIdentifier, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.eventIdentifier, new { @class = "edit-field" })
+                @Html.ValidationMessageFor(model => model.eventIdentifier)
+            </div>
+        </div>*@
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.eventName, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.eventName, new { @class = "edit-field" })
+                @Html.ValidationMessageFor(model => model.eventName)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.date, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.date, new { @class = "edit-field" })
+                @Html.ValidationMessageFor(model => model.date)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.time, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.time, new { @class = "edit-field" })
+                @Html.ValidationMessageFor(model => model.time)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.location, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.location, new { @class = "edit-field" })
+                @Html.ValidationMessageFor(model => model.location)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.description, new { @class = "control-label col-md-2" })
+            <div class="largertextbox">
+                @Html.TextAreaFor(model => model.description, new { @class = "edit-field" })
+                @Html.ValidationMessageFor(model => model.description)
+            </div>
+        </div>
+
+        <p />
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+        <p />
+
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Events")
+</div>
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>

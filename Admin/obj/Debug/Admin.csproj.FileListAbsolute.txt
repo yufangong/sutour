@@ -1,0 +1,54 @@
+C:\686\BackUpFinal\Mvc-WebApi-FileService-Helper\Admin\bin\Debug\Interface.exe.config
+C:\686\BackUpFinal\Mvc-WebApi-FileService-Helper\Admin\bin\Debug\Interface.exe
+C:\686\BackUpFinal\Mvc-WebApi-FileService-Helper\Admin\bin\Debug\Interface.pdb
+C:\686\BackUpFinal\Mvc-WebApi-FileService-Helper\Admin\bin\Debug\Newtonsoft.Json.dll
+C:\686\BackUpFinal\Mvc-WebApi-FileService-Helper\Admin\obj\Debug\Admin.csprojResolveAssemblyReference.cache
+C:\686\BackUpFinal\Mvc-WebApi-FileService-Helper\Admin\obj\Debug\MainWindow.baml
+C:\686\BackUpFinal\Mvc-WebApi-FileService-Helper\Admin\obj\Debug\MainWindow.g.cs
+C:\686\BackUpFinal\Mvc-WebApi-FileService-Helper\Admin\obj\Debug\App.g.cs
+C:\686\BackUpFinal\Mvc-WebApi-FileService-Helper\Admin\obj\Debug\Interface_MarkupCompile.cache
+C:\686\BackUpFinal\Mvc-WebApi-FileService-Helper\Admin\obj\Debug\Interface.g.resources
+C:\686\BackUpFinal\Mvc-WebApi-FileService-Helper\Admin\obj\Debug\Interface.Properties.Resources.resources
+C:\686\BackUpFinal\Mvc-WebApi-FileService-Helper\Admin\obj\Debug\Admin.csproj.GenerateResource.Cache
+C:\686\BackUpFinal\Mvc-WebApi-FileService-Helper\Admin\obj\Debug\Interface.exe
+C:\686\BackUpFinal\Mvc-WebApi-FileService-Helper\Admin\obj\Debug\Interface.pdb
+C:\686\BackUpFinal\eventissql - Copy (2)\Admin\bin\Debug\Interface.exe.config
+C:\686\BackUpFinal\eventissql - Copy (2)\Admin\bin\Debug\Interface.exe
+C:\686\BackUpFinal\eventissql - Copy (2)\Admin\bin\Debug\Interface.pdb
+C:\686\BackUpFinal\eventissql - Copy (2)\Admin\bin\Debug\Newtonsoft.Json.dll
+C:\686\BackUpFinal\eventissql - Copy (2)\Admin\obj\Debug\MainWindow.baml
+C:\686\BackUpFinal\eventissql - Copy (2)\Admin\obj\Debug\MainWindow.g.cs
+C:\686\BackUpFinal\eventissql - Copy (2)\Admin\obj\Debug\App.g.cs
+C:\686\BackUpFinal\eventissql - Copy (2)\Admin\obj\Debug\Interface_MarkupCompile.cache
+C:\686\BackUpFinal\eventissql - Copy (2)\Admin\obj\Debug\Interface.g.resources
+C:\686\BackUpFinal\eventissql - Copy (2)\Admin\obj\Debug\Interface.Properties.Resources.resources
+C:\686\BackUpFinal\eventissql - Copy (2)\Admin\obj\Debug\Admin.csproj.GenerateResource.Cache
+C:\686\BackUpFinal\eventissql - Copy (2)\Admin\obj\Debug\Interface.exe
+C:\686\BackUpFinal\eventissql - Copy (2)\Admin\obj\Debug\Interface.pdb
+C:\686\BackUpFinal\current\Admin\bin\Debug\Interface.exe.config
+C:\686\BackUpFinal\current\Admin\bin\Debug\Interface.exe
+C:\686\BackUpFinal\current\Admin\bin\Debug\Interface.pdb
+C:\686\BackUpFinal\current\Admin\bin\Debug\Newtonsoft.Json.dll
+C:\686\BackUpFinal\current\Admin\obj\Debug\MainWindow.baml
+C:\686\BackUpFinal\current\Admin\obj\Debug\MainWindow.g.cs
+C:\686\BackUpFinal\current\Admin\obj\Debug\App.g.cs
+C:\686\BackUpFinal\current\Admin\obj\Debug\Interface_MarkupCompile.cache
+C:\686\BackUpFinal\current\Admin\obj\Debug\Interface.g.resources
+C:\686\BackUpFinal\current\Admin\obj\Debug\Interface.Properties.Resources.resources
+C:\686\BackUpFinal\current\Admin\obj\Debug\Admin.csproj.GenerateResource.Cache
+C:\686\BackUpFinal\current\Admin\obj\Debug\Interface.exe
+C:\686\BackUpFinal\current\Admin\obj\Debug\Interface.pdb
+\\psf\Home\Desktop\IP\FinalProject\Admin\bin\Debug\Interface.exe.config
+\\psf\Home\Desktop\IP\FinalProject\Admin\obj\Debug\Interface.exe
+\\psf\Home\Desktop\IP\FinalProject\Admin\obj\Debug\Interface.pdb
+\\psf\Home\Desktop\IP\FinalProject\Admin\bin\Debug\Interface.exe
+\\psf\Home\Desktop\IP\FinalProject\Admin\bin\Debug\Interface.pdb
+\\psf\Home\Desktop\IP\FinalProject\Admin\bin\Debug\Newtonsoft.Json.dll
+\\psf\Home\Desktop\IP\FinalProject\Admin\obj\Debug\Admin.csprojResolveAssemblyReference.cache
+\\psf\Home\Desktop\IP\FinalProject\Admin\obj\Debug\MainWindow.baml
+\\psf\Home\Desktop\IP\FinalProject\Admin\obj\Debug\MainWindow.g.cs
+\\psf\Home\Desktop\IP\FinalProject\Admin\obj\Debug\App.g.cs
+\\psf\Home\Desktop\IP\FinalProject\Admin\obj\Debug\Interface_MarkupCompile.cache
+\\psf\Home\Desktop\IP\FinalProject\Admin\obj\Debug\Interface.g.resources
+\\psf\Home\Desktop\IP\FinalProject\Admin\obj\Debug\Interface.Properties.Resources.resources
+\\psf\Home\Desktop\IP\FinalProject\Admin\obj\Debug\Admin.csproj.GenerateResource.Cache

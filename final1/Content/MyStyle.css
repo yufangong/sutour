@@ -1,0 +1,287 @@
+﻿body {
+    background-color: #ff6600;
+    color: #333333;
+    text-decoration:solid;
+}
+.body2{
+    background-color: #ffffff;
+    color: #333333;
+    text-decoration:solid;
+}
+
+.backgroundchange{
+    background-color: #fb9035;
+}
+.body-content2 {
+    padding-top: 70px;
+    padding-left: 15px;
+    padding-right: 15px;
+    /*margin-bottom:0;
+    padding-bottom:0;*/
+}
+.nav-background{
+    padding-top:30px;
+    height: 70px;
+    background-color: #1466bb;
+    /*margin-bottom:0;
+    padding-bottom:0;*/
+}
+
+#nav-bar, #nav-bar ul { /* all lists */
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    line-height: 2;
+    background-color: #000;
+}
+    #nav-bar a {
+        display: block;
+        text-decoration: none;
+        width: 10em;
+        color: #ffffff;
+        font-weight: bold;
+    }
+
+    #nav-bar li { /* all list items */
+        float: left;
+        width: 10em; /* width needed or else Opera goes nuts */
+    }
+
+
+
+    /*try to cancel transparent here*/
+    #nav-bar li a:hover {
+        text-decoration:underline;
+        opacity: initial;
+        background: #b24700;
+        /*background: transparent;*/
+        /*background: -moz-linear-gradient(top, #b24700, #000000, #b24700);
+        background: -webkit-gradient(linear, 0 0, 0 bottom, from(#b24700), to(#000000), from(#000000), to(#b24700));
+        background: -o-linear-gradient(top, #b24700, #000000, #b24700);*/
+    }
+
+        #nav-bar li ul { /* second-level lists */
+            position: absolute;
+            background: #000;
+            color: #ff6600;
+            border-color: #808080;
+            width: 10em;
+            left: -999em; /* using left instead of display to hide menus because display: none isn't read by screen readers */
+        }
+
+        #nav-bar li:hover ul, #nav-bar li.sfhover ul { /* lists nested under hovered list items */
+            left: auto;
+        }
+
+.menu {
+    background: white;
+}
+.beginning {
+    margin-bottom: 0px;
+}
+.end {
+    clear: both;
+    margin-bottom: 20px;
+}
+
+.headerImg {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+.img{
+    width:100%;
+    margin:0;
+}
+div.header {
+    top: 0;
+    width: 100%;
+    height: 70px;
+    background-color: #1a1a1a;
+    position: fixed;
+}
+h1.header {
+    font-weight: 700;
+    color: #E65C00;
+    margin-left: 50px;
+    text-align: left;
+    font-family: David;
+}
+.eventdiv{
+    float: right;
+    font-family : Arial, Batang;
+}
+.eventtable{
+    background: white;
+}
+
+.jumbotron {
+  padding: 30px;
+  margin-bottom: 30px;
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 2.1428571435;
+  color: inherit;
+  background-color: #eeeeee;
+}
+
+
+
+.mainpage {
+    background: #000;
+    color: #E65C00;
+    width: 1150px;
+    padding-top:0;
+    margin-top:0;
+    padding-left:15px;
+    padding-right:15px;
+    margin-bottom: 30px;
+    font-size: 21px;
+    font-weight: 200;
+    line-height: 2;
+    height:1400px;
+}
+
+.mainpage2 {
+    background: #000;
+    color: #E65C00;
+    width: 1150px;
+    margin-top:-20px;
+    padding-left:15px;
+    padding-right:15px;
+    margin-left:40px;
+    margin-bottom: 30px;
+    font-size: 21px;
+    font-weight: 200;
+    line-height: 2;
+    height:2000px;
+} 
+.mainpage3{
+    float: right;
+    width: 75%;
+    margin-top:100px;
+    margin-bottom: 50px
+}
+.leftimage{
+    float: left;
+    padding: 10px;
+    margin-bottom: 30PX;
+    width: 400px;
+    height:auto;
+}
+.rightimage{
+    float: left;
+    padding: 10px;
+    margin-bottom: 30PX;
+    width: 400px;
+    height:auto;
+}
+.imagediv{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.imagediv2{
+    margin-bottom: 30px;
+    width:500px;
+    height:auto;
+}
+
+.textdiv{
+    float:left;
+    padding: 10px;
+    margin-bottom: 30px;
+    width:300px;
+    height:auto;
+    font-size:14px;
+    font-weight: 100;
+    line-height:1;
+    border: ridge;
+    border-width:thin;
+    border-color: #ff6600;
+    border-radius: 10%;
+    box-shadow: 10px 10px 5px #b24700;
+}
+
+.textdiv3{
+    float:left;
+    padding: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    height:150px;
+    font-size:22px;
+    color:#fff;
+    font-weight: 100;
+    line-height:1;
+    border: ridge;
+    border-width:thin;
+    border-color: #ff6600;
+    border-radius: 10%;
+    box-shadow: 10px 10px 5px #b24700;
+}
+.textdiv2{
+    margin-bottom: 30px;
+    width:50%;
+    height:auto;
+    padding: 10px;
+    font-size:20px;
+    font-weight: 100;
+    line-height:1;
+    border: ridge;
+    border-width:thin;
+    border-color: #ff6600;
+    box-shadow: 10px 10px 5px #b24700;
+}
+.direction{
+    font-size:20px;
+}
+
+.imageframe{
+  width:1200px;
+  background-color:white;
+}
+
+.tourimage{
+    float: left;
+    width: 750px;
+}
+.tourtext {
+    float: left;
+    width:450px;
+    font-size:16px;
+}
+ #plink a {
+        color: #000000;
+        font-weight: bold;
+    }
+
+ .largertextbox textarea{
+     width: 1000px;
+     height: 100px;
+ }
+
+ .calen{
+     color: black;
+ }
+ .calen a{
+     color: #1466bb;
+ }
+ .calen visited{
+     color: white;
+ }
+ .calenfram{
+     margin-top: 150px;
+     margin-bottom: 30px;
+     float: left;
+ }
+ #smaller th {
+     font-size: 12px;
+ }
+ #smaller td {
+     font-size: 12px;
+ }
+ #smaller tr {
+     font-size: 12px;
+ }

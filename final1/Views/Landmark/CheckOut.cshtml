@@ -1,0 +1,67 @@
+﻿@model final1.Models.Landmark
+
+@{
+    ViewBag.Title = "CheckOut";
+    Layout = "~/Views/Shared/layout2.cshtml";
+}
+
+<h2>CheckOut</h2>
+@*<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.LandmarkName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Description)
+        </th>
+        <th>
+            Direction
+        </th>
+        <th></th>
+    </tr>*@
+   @{
+    List<final1.Models.Landmark> SelectedSites = ((List<final1.Models.Landmark>)Session["ShoppingCart"]);
+    string[,] path = new string[3, 3];
+    path[0,1] = "Dome->Bird: Go north-east passing by Syracuse University-Aux Services and Hendrick’s Chapel until arrive at School of Information Studies, then go north-east onto University PI. Then go straight then arrive at bird south gate";
+    path[0,2] = "Dome->Crouse: Go north straight on Irving Ave, then turn east onto Waverly Ave and then go north and turn east at 2nd crossing arrive at destination.";
+    path[1,0] = "Bird->Dome: Starting from bird south gate, turn on University PI, then go west onto Irving Ave, then go south destination on your left.";
+    path[1,2] = "Bird->Crouse: Starting at bird north gate, go on Waverly Ave, turn north after passing Syracuse University International Center, then go onto Marchall St after passing Sheraton University Hotel then turn west, and arrive at destination after passing 2 crossings.";
+    path[2,0] = "Crouse->Dome: First go south onto S Crouse Ave, then pass crossing Waverly Ave and University PI go onto Crouse Dr and go along with Crouse Dr arrive at destination.";
+    path[2,1] = "Crouse->Bird: First go east straight on Marshall St , then turn south at 2nd crossing with Walnut PI and go south arrive at bird north gate.";
+    int count = SelectedSites.Count();}
+
+    @if(count <= 1)
+    {
+        <p class="direction">You need to select your destination after clicked your current location.</p>
+    }
+    @for (int i = 1; i < count; i++ )
+    {
+        <p class="direction">@path[SelectedSites[i-1].LandmarkId-1, SelectedSites[i].LandmarkId-1]</p>
+    }
+    @*<tr>
+            <td>
+                @Html.DisplayFor(modelItem => SelectedSites[1].LandmarkName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => SelectedSites[1].Description)
+            </td>
+            <td>
+                @if (SelectedSites[0].LandmarkId == 1 && SelectedSites[1].LandmarkId == 2)
+                {<p>@path[0]</p>}
+                @if (SelectedSites[0].LandmarkId == 1 && SelectedSites[1].LandmarkId == 3)
+                {<p>@path[1]</p>}
+                @if (SelectedSites[0].LandmarkId == 2 && SelectedSites[1].LandmarkId == 1)
+                {<p>@path[2]</p>}
+                @if (SelectedSites[0].LandmarkId == 2 && SelectedSites[1].LandmarkId == 3)
+                {<p>@path[3]</p>}
+                @if (SelectedSites[0].LandmarkId == 3 && SelectedSites[1].LandmarkId == 1)
+                {<p>@path[4]</p>}
+                @if (SelectedSites[0].LandmarkId == 3 && SelectedSites[1].LandmarkId == 2)
+                {<p>@path[5]</p>}
+            </td>
+        </tr>
+</table>*@
+<p />
+@Html.ActionLink("Back to Catalog", "Catalog");
+</p>
+

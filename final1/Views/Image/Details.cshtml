@@ -1,0 +1,50 @@
+﻿@model final1.Models.Image
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/layout2.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Image</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Annotation)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Annotation)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.landmarks.LandmarkName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.landmarks.LandmarkName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.landmarks.Description)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.landmarks.Description)
+        </dd>
+        </dl>
+    <dl class="textdiv3">
+
+        <dt>
+            @Html.DisplayNameFor(model => model.landmarks.Direction)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.landmarks.Direction)
+        </dd>
+    </dl>
+
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ImageId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,4 @@
+﻿CREATE TABLE CityImage
+(
+	[Id] INT NOT NULL PRIMARY KEY
+)

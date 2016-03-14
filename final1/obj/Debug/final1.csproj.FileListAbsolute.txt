@@ -1,0 +1,255 @@
+C:\686\BackUpFinal\3 - Copy\final1\bin\final1.dll.config
+C:\686\BackUpFinal\3 - Copy\final1\bin\final1.dll
+C:\686\BackUpFinal\3 - Copy\final1\bin\final1.pdb
+C:\686\BackUpFinal\3 - Copy\final1\bin\Antlr3.Runtime.dll
+C:\686\BackUpFinal\3 - Copy\final1\bin\EntityFramework.dll
+C:\686\BackUpFinal\3 - Copy\final1\bin\EntityFramework.SqlServer.dll
+C:\686\BackUpFinal\3 - Copy\final1\bin\Microsoft.AspNet.Identity.Core.dll
+C:\686\BackUpFinal\3 - Copy\final1\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\686\BackUpFinal\3 - Copy\final1\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\686\BackUpFinal\3 - Copy\final1\bin\Microsoft.Owin.dll
+C:\686\BackUpFinal\3 - Copy\final1\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\686\BackUpFinal\3 - Copy\final1\bin\Microsoft.Owin.Security.Cookies.dll
+C:\686\BackUpFinal\3 - Copy\final1\bin\Microsoft.Owin.Security.dll
+C:\686\BackUpFinal\3 - Copy\final1\bin\Microsoft.Owin.Security.Facebook.dll
+C:\686\BackUpFinal\3 - Copy\final1\bin\Microsoft.Owin.Security.Google.dll
+C:\686\BackUpFinal\3 - Copy\final1\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\686\BackUpFinal\3 - Copy\final1\bin\Microsoft.Owin.Security.OAuth.dll
+C:\686\BackUpFinal\3 - Copy\final1\bin\Microsoft.Owin.Security.Twitter.dll
+C:\686\BackUpFinal\3 - Copy\final1\bin\Microsoft.Web.Infrastructure.dll
+C:\686\BackUpFinal\3 - Copy\final1\bin\Newtonsoft.Json.dll
+C:\686\BackUpFinal\3 - Copy\final1\bin\Owin.dll
+C:\686\BackUpFinal\3 - Copy\final1\bin\System.Web.Helpers.dll
+C:\686\BackUpFinal\3 - Copy\final1\bin\System.Web.Mvc.dll
+C:\686\BackUpFinal\3 - Copy\final1\bin\System.Web.Optimization.dll
+C:\686\BackUpFinal\3 - Copy\final1\bin\System.Web.Razor.dll
+C:\686\BackUpFinal\3 - Copy\final1\bin\System.Web.WebPages.Deployment.dll
+C:\686\BackUpFinal\3 - Copy\final1\bin\System.Web.WebPages.dll
+C:\686\BackUpFinal\3 - Copy\final1\bin\System.Web.WebPages.Razor.dll
+C:\686\BackUpFinal\3 - Copy\final1\bin\WebGrease.dll
+C:\686\BackUpFinal\3 - Copy\final1\bin\System.Web.Helpers.xml
+C:\686\BackUpFinal\3 - Copy\final1\bin\System.Web.Mvc.xml
+C:\686\BackUpFinal\3 - Copy\final1\bin\System.Web.Optimization.xml
+C:\686\BackUpFinal\3 - Copy\final1\bin\System.Web.Razor.xml
+C:\686\BackUpFinal\3 - Copy\final1\bin\System.Web.WebPages.xml
+C:\686\BackUpFinal\3 - Copy\final1\bin\System.Web.WebPages.Deployment.xml
+C:\686\BackUpFinal\3 - Copy\final1\bin\System.Web.WebPages.Razor.xml
+C:\686\BackUpFinal\3 - Copy\final1\bin\Newtonsoft.Json.xml
+C:\686\BackUpFinal\3 - Copy\final1\bin\Antlr3.Runtime.pdb
+C:\686\BackUpFinal\3 - Copy\final1\bin\EntityFramework.xml
+C:\686\BackUpFinal\3 - Copy\final1\bin\EntityFramework.SqlServer.xml
+C:\686\BackUpFinal\3 - Copy\final1\bin\Microsoft.AspNet.Identity.Core.xml
+C:\686\BackUpFinal\3 - Copy\final1\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\686\BackUpFinal\3 - Copy\final1\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\686\BackUpFinal\3 - Copy\final1\bin\Microsoft.Owin.xml
+C:\686\BackUpFinal\3 - Copy\final1\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\686\BackUpFinal\3 - Copy\final1\bin\Microsoft.Owin.Security.xml
+C:\686\BackUpFinal\3 - Copy\final1\bin\Microsoft.Owin.Security.Facebook.xml
+C:\686\BackUpFinal\3 - Copy\final1\bin\Microsoft.Owin.Security.Cookies.xml
+C:\686\BackUpFinal\3 - Copy\final1\bin\Microsoft.Owin.Security.OAuth.xml
+C:\686\BackUpFinal\3 - Copy\final1\bin\Microsoft.Owin.Security.Google.xml
+C:\686\BackUpFinal\3 - Copy\final1\bin\Microsoft.Owin.Security.Twitter.xml
+C:\686\BackUpFinal\3 - Copy\final1\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\686\BackUpFinal\3 - Copy\final1\obj\Debug\final1.dll
+C:\686\BackUpFinal\3 - Copy\final1\obj\Debug\final1.pdb
+C:\686\BackUpFinal\3 - Copy\final1\obj\Debug\final1.Migrations.DataAnnotations.resources
+C:\686\BackUpFinal\3 - Copy\final1\obj\Debug\final1.csproj.GenerateResource.Cache
+C:\686\BackUpFinal\3 - Copy\final1\obj\Debug\final1.csprojResolveAssemblyReference.cache
+C:\686\BackUpFinal\3 - Copy\final1\obj\Debug\final1.Migrations.DataAnnotations1.resources
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\bin\final1.dll.config
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\bin\final1.dll
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\bin\final1.pdb
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\bin\Antlr3.Runtime.dll
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\bin\EntityFramework.dll
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\bin\EntityFramework.SqlServer.dll
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\bin\Microsoft.AspNet.Identity.Core.dll
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\bin\Microsoft.Owin.dll
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\bin\Microsoft.Owin.Security.Cookies.dll
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\bin\Microsoft.Owin.Security.dll
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\bin\Microsoft.Owin.Security.Facebook.dll
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\bin\Microsoft.Owin.Security.Google.dll
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\bin\Microsoft.Owin.Security.OAuth.dll
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\bin\Microsoft.Owin.Security.Twitter.dll
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\bin\Microsoft.Web.Infrastructure.dll
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\bin\Newtonsoft.Json.dll
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\bin\Owin.dll
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\bin\System.Net.Http.Formatting.dll
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\bin\System.Web.Helpers.dll
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\bin\System.Web.Http.dll
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\bin\System.Web.Http.WebHost.dll
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\bin\System.Web.Mvc.dll
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\bin\System.Web.Optimization.dll
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\bin\System.Web.Razor.dll
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\bin\System.Web.WebPages.Deployment.dll
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\bin\System.Web.WebPages.dll
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\bin\System.Web.WebPages.Razor.dll
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\bin\WebGrease.dll
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\bin\System.Net.Http.Formatting.xml
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\bin\System.Web.Http.xml
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\bin\System.Web.Http.WebHost.xml
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\bin\System.Web.Helpers.xml
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\bin\System.Web.Mvc.xml
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\bin\System.Web.Optimization.xml
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\bin\System.Web.Razor.xml
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\bin\System.Web.WebPages.xml
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\bin\System.Web.WebPages.Deployment.xml
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\bin\System.Web.WebPages.Razor.xml
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\bin\Newtonsoft.Json.xml
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\bin\Antlr3.Runtime.pdb
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\bin\EntityFramework.xml
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\bin\EntityFramework.SqlServer.xml
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\bin\Microsoft.AspNet.Identity.Core.xml
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\bin\Microsoft.Owin.xml
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\bin\Microsoft.Owin.Security.xml
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\bin\Microsoft.Owin.Security.Facebook.xml
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\bin\Microsoft.Owin.Security.Cookies.xml
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\bin\Microsoft.Owin.Security.OAuth.xml
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\bin\Microsoft.Owin.Security.Google.xml
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\bin\Microsoft.Owin.Security.Twitter.xml
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\obj\Debug\final1.Migrations.DataAnnotations.resources
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\obj\Debug\final1.Migrations.DataAnnotations1.resources
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\obj\Debug\final1.Migrations.Event.resources
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\obj\Debug\final1.Migrations.ImageContext.resources
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\obj\Debug\final1.csproj.GenerateResource.Cache
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\obj\Debug\final1.dll
+C:\686\BackUpFinal\eventissql - Copy (2)\final1\obj\Debug\final1.pdb
+C:\686\BackUpFinal\current\final1\bin\final1.dll.config
+C:\686\BackUpFinal\current\final1\bin\final1.dll
+C:\686\BackUpFinal\current\final1\bin\final1.pdb
+C:\686\BackUpFinal\current\final1\bin\Antlr3.Runtime.dll
+C:\686\BackUpFinal\current\final1\bin\EntityFramework.dll
+C:\686\BackUpFinal\current\final1\bin\EntityFramework.SqlServer.dll
+C:\686\BackUpFinal\current\final1\bin\Microsoft.AspNet.Identity.Core.dll
+C:\686\BackUpFinal\current\final1\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\686\BackUpFinal\current\final1\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\686\BackUpFinal\current\final1\bin\Microsoft.Owin.dll
+C:\686\BackUpFinal\current\final1\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\686\BackUpFinal\current\final1\bin\Microsoft.Owin.Security.Cookies.dll
+C:\686\BackUpFinal\current\final1\bin\Microsoft.Owin.Security.dll
+C:\686\BackUpFinal\current\final1\bin\Microsoft.Owin.Security.Facebook.dll
+C:\686\BackUpFinal\current\final1\bin\Microsoft.Owin.Security.Google.dll
+C:\686\BackUpFinal\current\final1\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\686\BackUpFinal\current\final1\bin\Microsoft.Owin.Security.OAuth.dll
+C:\686\BackUpFinal\current\final1\bin\Microsoft.Owin.Security.Twitter.dll
+C:\686\BackUpFinal\current\final1\bin\Microsoft.Web.Infrastructure.dll
+C:\686\BackUpFinal\current\final1\bin\Newtonsoft.Json.dll
+C:\686\BackUpFinal\current\final1\bin\Owin.dll
+C:\686\BackUpFinal\current\final1\bin\System.Net.Http.Formatting.dll
+C:\686\BackUpFinal\current\final1\bin\System.Web.Helpers.dll
+C:\686\BackUpFinal\current\final1\bin\System.Web.Http.dll
+C:\686\BackUpFinal\current\final1\bin\System.Web.Http.WebHost.dll
+C:\686\BackUpFinal\current\final1\bin\System.Web.Mvc.dll
+C:\686\BackUpFinal\current\final1\bin\System.Web.Optimization.dll
+C:\686\BackUpFinal\current\final1\bin\System.Web.Razor.dll
+C:\686\BackUpFinal\current\final1\bin\System.Web.WebPages.Deployment.dll
+C:\686\BackUpFinal\current\final1\bin\System.Web.WebPages.dll
+C:\686\BackUpFinal\current\final1\bin\System.Web.WebPages.Razor.dll
+C:\686\BackUpFinal\current\final1\bin\WebGrease.dll
+C:\686\BackUpFinal\current\final1\bin\System.Net.Http.Formatting.xml
+C:\686\BackUpFinal\current\final1\bin\System.Web.Http.xml
+C:\686\BackUpFinal\current\final1\bin\System.Web.Http.WebHost.xml
+C:\686\BackUpFinal\current\final1\bin\System.Web.Helpers.xml
+C:\686\BackUpFinal\current\final1\bin\System.Web.Mvc.xml
+C:\686\BackUpFinal\current\final1\bin\System.Web.Optimization.xml
+C:\686\BackUpFinal\current\final1\bin\System.Web.Razor.xml
+C:\686\BackUpFinal\current\final1\bin\System.Web.WebPages.xml
+C:\686\BackUpFinal\current\final1\bin\System.Web.WebPages.Deployment.xml
+C:\686\BackUpFinal\current\final1\bin\System.Web.WebPages.Razor.xml
+C:\686\BackUpFinal\current\final1\bin\Newtonsoft.Json.xml
+C:\686\BackUpFinal\current\final1\bin\Antlr3.Runtime.pdb
+C:\686\BackUpFinal\current\final1\bin\EntityFramework.xml
+C:\686\BackUpFinal\current\final1\bin\EntityFramework.SqlServer.xml
+C:\686\BackUpFinal\current\final1\bin\Microsoft.AspNet.Identity.Core.xml
+C:\686\BackUpFinal\current\final1\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\686\BackUpFinal\current\final1\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\686\BackUpFinal\current\final1\bin\Microsoft.Owin.xml
+C:\686\BackUpFinal\current\final1\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\686\BackUpFinal\current\final1\bin\Microsoft.Owin.Security.xml
+C:\686\BackUpFinal\current\final1\bin\Microsoft.Owin.Security.Facebook.xml
+C:\686\BackUpFinal\current\final1\bin\Microsoft.Owin.Security.Cookies.xml
+C:\686\BackUpFinal\current\final1\bin\Microsoft.Owin.Security.OAuth.xml
+C:\686\BackUpFinal\current\final1\bin\Microsoft.Owin.Security.Google.xml
+C:\686\BackUpFinal\current\final1\bin\Microsoft.Owin.Security.Twitter.xml
+C:\686\BackUpFinal\current\final1\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\686\BackUpFinal\current\final1\obj\Debug\final1.Migrations.DataAnnotations.resources
+C:\686\BackUpFinal\current\final1\obj\Debug\final1.Migrations.DataAnnotations1.resources
+C:\686\BackUpFinal\current\final1\obj\Debug\final1.Migrations.Event.resources
+C:\686\BackUpFinal\current\final1\obj\Debug\final1.Migrations.ImageContext.resources
+C:\686\BackUpFinal\current\final1\obj\Debug\final1.csproj.GenerateResource.Cache
+C:\686\BackUpFinal\current\final1\obj\Debug\final1.dll
+C:\686\BackUpFinal\current\final1\obj\Debug\final1.pdb
+C:\686\BackUpFinal\current\final1\obj\Debug\final1.csprojResolveAssemblyReference.cache
+\\psf\Home\Desktop\IP\FinalProject\final1\bin\final1.dll.config
+\\psf\Home\Desktop\IP\FinalProject\final1\bin\final1.dll
+\\psf\Home\Desktop\IP\FinalProject\final1\bin\final1.pdb
+\\psf\Home\Desktop\IP\FinalProject\final1\bin\Antlr3.Runtime.dll
+\\psf\Home\Desktop\IP\FinalProject\final1\bin\EntityFramework.dll
+\\psf\Home\Desktop\IP\FinalProject\final1\bin\EntityFramework.SqlServer.dll
+\\psf\Home\Desktop\IP\FinalProject\final1\bin\Microsoft.AspNet.Identity.Core.dll
+\\psf\Home\Desktop\IP\FinalProject\final1\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+\\psf\Home\Desktop\IP\FinalProject\final1\bin\Microsoft.AspNet.Identity.Owin.dll
+\\psf\Home\Desktop\IP\FinalProject\final1\bin\Microsoft.Owin.dll
+\\psf\Home\Desktop\IP\FinalProject\final1\bin\Microsoft.Owin.Host.SystemWeb.dll
+\\psf\Home\Desktop\IP\FinalProject\final1\bin\Microsoft.Owin.Security.Cookies.dll
+\\psf\Home\Desktop\IP\FinalProject\final1\bin\Microsoft.Owin.Security.dll
+\\psf\Home\Desktop\IP\FinalProject\final1\bin\Microsoft.Owin.Security.Facebook.dll
+\\psf\Home\Desktop\IP\FinalProject\final1\bin\Microsoft.Owin.Security.Google.dll
+\\psf\Home\Desktop\IP\FinalProject\final1\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+\\psf\Home\Desktop\IP\FinalProject\final1\bin\Microsoft.Owin.Security.OAuth.dll
+\\psf\Home\Desktop\IP\FinalProject\final1\bin\Microsoft.Owin.Security.Twitter.dll
+\\psf\Home\Desktop\IP\FinalProject\final1\bin\Microsoft.Web.Infrastructure.dll
+\\psf\Home\Desktop\IP\FinalProject\final1\bin\Newtonsoft.Json.dll
+\\psf\Home\Desktop\IP\FinalProject\final1\bin\Owin.dll
+\\psf\Home\Desktop\IP\FinalProject\final1\bin\System.Net.Http.Formatting.dll
+\\psf\Home\Desktop\IP\FinalProject\final1\bin\System.Web.Helpers.dll
+\\psf\Home\Desktop\IP\FinalProject\final1\bin\System.Web.Http.dll
+\\psf\Home\Desktop\IP\FinalProject\final1\bin\System.Web.Http.WebHost.dll
+\\psf\Home\Desktop\IP\FinalProject\final1\bin\System.Web.Mvc.dll
+\\psf\Home\Desktop\IP\FinalProject\final1\bin\System.Web.Optimization.dll
+\\psf\Home\Desktop\IP\FinalProject\final1\bin\System.Web.Razor.dll
+\\psf\Home\Desktop\IP\FinalProject\final1\bin\System.Web.WebPages.Deployment.dll
+\\psf\Home\Desktop\IP\FinalProject\final1\bin\System.Web.WebPages.dll
+\\psf\Home\Desktop\IP\FinalProject\final1\bin\System.Web.WebPages.Razor.dll
+\\psf\Home\Desktop\IP\FinalProject\final1\bin\WebGrease.dll
+\\psf\Home\Desktop\IP\FinalProject\final1\bin\System.Net.Http.Formatting.xml
+\\psf\Home\Desktop\IP\FinalProject\final1\bin\System.Web.Http.xml
+\\psf\Home\Desktop\IP\FinalProject\final1\bin\System.Web.Http.WebHost.xml
+\\psf\Home\Desktop\IP\FinalProject\final1\bin\System.Web.Helpers.xml
+\\psf\Home\Desktop\IP\FinalProject\final1\bin\System.Web.Mvc.xml
+\\psf\Home\Desktop\IP\FinalProject\final1\bin\System.Web.Optimization.xml
+\\psf\Home\Desktop\IP\FinalProject\final1\bin\System.Web.Razor.xml
+\\psf\Home\Desktop\IP\FinalProject\final1\bin\System.Web.WebPages.xml
+\\psf\Home\Desktop\IP\FinalProject\final1\bin\System.Web.WebPages.Deployment.xml
+\\psf\Home\Desktop\IP\FinalProject\final1\bin\System.Web.WebPages.Razor.xml
+\\psf\Home\Desktop\IP\FinalProject\final1\bin\Newtonsoft.Json.xml
+\\psf\Home\Desktop\IP\FinalProject\final1\bin\Antlr3.Runtime.pdb
+\\psf\Home\Desktop\IP\FinalProject\final1\bin\EntityFramework.xml
+\\psf\Home\Desktop\IP\FinalProject\final1\bin\EntityFramework.SqlServer.xml
+\\psf\Home\Desktop\IP\FinalProject\final1\bin\Microsoft.AspNet.Identity.Core.xml
+\\psf\Home\Desktop\IP\FinalProject\final1\bin\Microsoft.AspNet.Identity.Owin.xml
+\\psf\Home\Desktop\IP\FinalProject\final1\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+\\psf\Home\Desktop\IP\FinalProject\final1\bin\Microsoft.Owin.xml
+\\psf\Home\Desktop\IP\FinalProject\final1\bin\Microsoft.Owin.Host.SystemWeb.xml
+\\psf\Home\Desktop\IP\FinalProject\final1\bin\Microsoft.Owin.Security.xml
+\\psf\Home\Desktop\IP\FinalProject\final1\bin\Microsoft.Owin.Security.Facebook.xml
+\\psf\Home\Desktop\IP\FinalProject\final1\bin\Microsoft.Owin.Security.Cookies.xml
+\\psf\Home\Desktop\IP\FinalProject\final1\bin\Microsoft.Owin.Security.OAuth.xml
+\\psf\Home\Desktop\IP\FinalProject\final1\bin\Microsoft.Owin.Security.Google.xml
+\\psf\Home\Desktop\IP\FinalProject\final1\bin\Microsoft.Owin.Security.Twitter.xml
+\\psf\Home\Desktop\IP\FinalProject\final1\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+\\psf\Home\Desktop\IP\FinalProject\final1\obj\Debug\final1.csprojResolveAssemblyReference.cache
+\\psf\Home\Desktop\IP\FinalProject\final1\obj\Debug\final1.Migrations.DataAnnotations.resources
+\\psf\Home\Desktop\IP\FinalProject\final1\obj\Debug\final1.Migrations.DataAnnotations1.resources
+\\psf\Home\Desktop\IP\FinalProject\final1\obj\Debug\final1.Migrations.Event.resources
+\\psf\Home\Desktop\IP\FinalProject\final1\obj\Debug\final1.Migrations.ImageContext.resources
+\\psf\Home\Desktop\IP\FinalProject\final1\obj\Debug\final1.csproj.GenerateResource.Cache
+\\psf\Home\Desktop\IP\FinalProject\final1\obj\Debug\final1.dll
+\\psf\Home\Desktop\IP\FinalProject\final1\obj\Debug\final1.pdb

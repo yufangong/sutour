@@ -1,0 +1,34 @@
+﻿@model IEnumerable<final1.Models.Landmark>
+@*<div class="container body-content2">*@
+    @{
+        ViewBag.Title = "Catalog";
+        Layout = "~/Views/Shared/layout2.cshtml";
+    }
+
+    <div class="mainpage2">
+        <h2>Catalog</h2>
+        <p>First click your current location, then select a list of sites to visit!</p>
+        <p>Click Check Out to see directions!</p>
+        <p>
+            @Html.ActionLink("Add new Landmark", "Index")
+        </p>
+        <div>
+            <img class="img" src="@Url.Content("~/Content/campus.jpg")" width="1275" height="1650" alt="Campus" usemap="#planetmap">
+            <map name="planetmap">
+                @*minus 40 on x *@
+                <area shape="circle" coords="480, 1150, 100" alt="Dome" @Html.ActionLink("Dome", "AddToCart", new { id = 1 })>
+                <area shape="circle" coords="730, 770, 50" alt="Bird" @Html.ActionLink("Bird", "AddToCart", new { id = 2 })>
+                <area shape="circle" coords="435, 922, 30" alt="Crouse" @Html.ActionLink("Crouse", "AddToCart", new { id = 3 })>
+            </map>
+        </div>
+        <p />
+        @{
+            int size = ((List<final1.Models.Landmark>)Session["ShoppingCart"]).Count();
+        }
+
+        <h3>Shopping Cart contains @size items</h3>
+
+        @Html.ActionLink("Go to Checkout", "CheckOut")
+        <p />
+    </div>
+@*</div>*@

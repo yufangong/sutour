@@ -1,0 +1,42 @@
+﻿@model IEnumerable<final1.Models.Image>
+
+@{
+    ViewBag.Title = "UserIndex";
+    Layout = "~/Views/Shared/layout2.cshtml";
+}
+
+<h2>UserIndex</h2>
+<table class="table">
+    @{
+        List<int> landmarkid = new List<int>();
+        foreach (var it in Model)
+        {
+            if (!landmarkid.Contains(it.landmarks.LandmarkId))
+            {
+                <tr class="imageframe">
+                    <td class="tourimage">
+                        <a href="@Url.Action("Join", "Landmark", new { id = it.landmarks.LandmarkId})">
+                            @{Html.DisplayFor(modelItem => it.Name);
+                            string imageaddress = @it.Name.ToString();}
+                            <img class="img" src="~/Content/pic/@it.Name.ToString()">
+                        </a>
+                    </td>
+                    <td class="tourtext">
+                        <p id="plink">
+                            @Html.ActionLink(it.landmarks.LandmarkName, "Join", "Landmark", new { id = it.landmarks.LandmarkId }, "")
+                        </p>
+                        <p>
+                            @Html.DisplayNameFor(model => model.landmarks.Description) :
+                            @Html.DisplayFor(modelItem => it.landmarks.Description)
+                        </p>
+                        <p class="direction">
+                            @Html.DisplayNameFor(model => model.landmarks.Direction) :
+                            @Html.DisplayFor(modelItem => it.landmarks.Direction)
+                        </p>
+                    </td>
+                </tr>
+                            landmarkid.Add(it.landmarks.LandmarkId);
+            }
+        }
+    }
+</table>

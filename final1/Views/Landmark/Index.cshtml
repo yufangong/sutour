@@ -1,0 +1,58 @@
+﻿@model IEnumerable<final1.Models.Landmark>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/layout2.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.LandmarkName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EditTime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Editor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Direction)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.LandmarkName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EditTime)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Editor)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Description)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Direction)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.LandmarkId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.LandmarkId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.LandmarkId })
+        </td>
+    </tr>
+}
+
+</table>

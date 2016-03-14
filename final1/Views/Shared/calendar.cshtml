@@ -1,0 +1,252 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+    <title>Day - Calendar</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Syracuse University Tour</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <meta content="en-us" http-equiv=language>
+    <link href="stylesheet.php" rel="stylesheet" type="text/css">
+    <script language="JavaScript" type="text/javascript">
+<!--
+		function isIE4()
+		{ return( navigator.appName.indexOf("Microsoft") != -1 && (navigator.appVersion.charAt(0)=='4') ); }
+
+		function new_window(freshurl) {
+			SmallWin = window.open(freshurl, 'Calendar','scrollbars=yes,resizable=yes,toolbar=no,height=300,width=400');
+			if (!isIE4())	{
+				if (window.focus) { SmallWin.focus(); }
+			}
+			if (SmallWin.opener == null) SmallWin.opener = window;
+			SmallWin.opener.name = "Main";
+		}
+		//-->
+    </script>
+    <style>
+        td {
+            font-size: large;
+            font-face: verdana, arial, sans-serif;
+        }
+
+        a.utility:link {
+            color: blue;
+            font-size: large;
+        }
+
+        a.utility:visited {
+            color: black;
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1 class="header">Syracuse University Tour</h1>
+    </div>
+    <div class="navbar-inverse navbar-fixed-top">
+        <div class="container">
+            @*<div class="navbar-header">
+                    @Html.ActionLink("Syracuse University Tour", "Index", "Home", null, new { @class = "navbar-brand" })
+                </div>*@
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav" id="nav-bar">
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li>
+                        @Html.ActionLink("About", "About", "Home")
+                    </li>
+                    <li>
+                        @Html.ActionLink("Contact", "Contact", "Home")
+                    </li>
+                    <li>
+                        @Html.ActionLink("Campus Map", "Catalog", "Landmark")
+                        <ul>
+                            <li>@Html.ActionLink("Google Map", "GoogleMap", "Landmark")</li>
+                        </ul>
+                    </li>
+                    <li>
+                        @Html.ActionLink("Photo Tour", "UserIndex", "Image")
+                    <ul>
+                        <li>@Html.ActionLink("Manage Image", "Index", "Image")</li>
+                        <li>@Html.ActionLink("Manage Landmark", "Index", "Landmark")</li>
+                    </ul>
+                </li>
+                <li>@Html.ActionLink("Resources", "Resources", "Home")</li>
+            </ul>
+            @Html.Partial("_LoginPartial")
+        </div>
+    </div>
+</div>
+    <table class="calenfram" width="20%" border="0" cellspacing="10" cellpadding="10">
+        <td rowspan="2" valign="top" bgcolor="#e8e5d6">
+            <table class="calen"  width="100%" border="0" cellpadding="3" cellspacing="0">
+                <tr align="center">
+                    <td class="littlecalendarheader" width="16%">&nbsp;</td>
+                    <td class="littlecalendarheader" width="12%">S</td>
+                    <td class="littlecalendarheader" width="12%">M</td>
+                    <td class="littlecalendarheader" width="12%">T</td>
+                    <td class="littlecalendarheader" width="12%">W</td>
+                    <td class="littlecalendarheader" width="12%">T/td>
+                    <td class="littlecalendarheader" width="12%">F</td>
+                    <td class="littlecalendarheader" width="12%">S</td>
+                </tr>
+                <tr align="center">
+                    <td colspan="8" bgcolor="#ffffff">
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td bgcolor="#999999"><img src="images/spacer.gif" width="1" height="1" alt=""></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="littlecalendarweek" valign="top" align="left">
+                        <p style="text-decoration:none">W17</p>
+                    </td>
+                    <td class="littlecalendarday" valign="top" align="center">
+                        <p style="color:#999999; text-decoration:none">27</p>
+                    </td>
+                    <td class="littlecalendarday" valign="top" align="center">
+                        <p style="color:#999999; text-decoration:none">28</p>
+                    </td>
+                    <td class="littlecalendarday" valign="top" align="center">
+                        <p style="color:#999999; text-decoration:none">29</p>
+                    </td>
+                    <td class="littlecalendarday" valign="top" align="center">
+                        <p style="color:#999999; text-decoration:none">30</p>
+                    </td>
+                    <td class="littlecalendarday" valign="top" align="center">
+                        <p style="text-decoration:none">1</p>
+                    </td>
+                    <td class="littlecalendarday" valign="top" align="center">
+                        <p style="text-decoration:none">2</p>
+                    </td>
+                    <td class="littlecalendarday" valign="top" align="center">
+                        <p style="text-decoration:none">3</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="littlecalendarweek" valign="top" align="left">
+                        <p style="text-decoration:none">W18</p>
+                    </td>
+                    <td class="littlecalendarday" valign="top" align="center">
+                        <a style="text-decoration:none">@Html.ActionLink("4", "Day", "XMLEvent", new { date = "2014-05-04" }, null)</a>
+                    </td>
+                    <td class="littlecalendarday" style="background-color:#e8e5d6" valign="top" align="center">
+                        <a style="text-decoration:none">@Html.ActionLink("5", "Day", "XMLEvent", new { date = "2014-05-05" }, null)</a>
+                    </td>
+                    <td class="littlecalendarday" valign="top" align="center">
+                        <a style="text-decoration:none">@Html.ActionLink("6", "Day", "XMLEvent", new { date = "2014-05-06" }, null)</a>
+                    </td>
+                    <td class="littlecalendarday" valign="top" align="center">
+                        <a style="text-decoration:none">@Html.ActionLink("7", "Day", "XMLEvent", new { date = "2014-05-07" }, null)</a>
+                    </td>
+                    <td class="littlecalendarday" valign="top" align="center">
+                        <a style="text-decoration:none">@Html.ActionLink("8", "Day", "XMLEvent", new { date = "2014-05-08" }, null)</a>
+                    </td>
+                    <td class="littlecalendarday" valign="top" align="center">
+                        <a style="text-decoration:none">@Html.ActionLink("9", "Day", "XMLEvent", new { date = "2014-05-09" }, null)</a>
+                    </td>
+                    <td class="littlecalendarday" valign="top" align="center">
+                        <a style="text-decoration:none">@Html.ActionLink("10", "Day", "XMLEvent", new { date = "2014-05-10" }, null)</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="littlecalendarweek" valign="top" align="left">
+                        <p style="text-decoration:none">W19</p>
+                    </td>
+                    <td class="littlecalendarday" valign="top" align="center">
+                        <a style="text-decoration:none">@Html.ActionLink("11", "Day", "XMLEvent", new { date = "2014-05-11" }, null)</a>
+                    </td>
+                    <td class="littlecalendarday" valign="top" align="center">
+                        <p style="text-decoration:none">12</p>
+                    </td>
+                    <td class="littlecalendarday" valign="top" align="center">
+                        <p style="text-decoration:none">13</p>
+                    </td>
+                    <td class="littlecalendarday" valign="top" align="center">
+                        <p style="text-decoration:none">14</p>
+                    </td>
+                    <td class="littlecalendarday" valign="top" align="center">
+                        <p style="text-decoration:none">15</p>
+                    </td>
+                    <td class="littlecalendarday" valign="top" align="center">
+                        <p style="text-decoration:none">16</p>
+                    </td>
+                    <td class="littlecalendarday" valign="top" align="center">
+                        <p style="text-decoration:none">17</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="littlecalendarweek" valign="top" align="left">
+                        <p style="text-decoration:none">W20</p>
+                    </td>
+                    <td class="littlecalendarday" valign="top" align="center">
+                        <p style="text-decoration:none">18</p>
+                    </td>
+                    <td class="littlecalendarday" valign="top" align="center">
+                        <p style="text-decoration:none">19</p>
+                    </td>
+                    <td class="littlecalendarday" valign="top" align="center">
+                        <p style="text-decoration:none">20</p>
+                    </td>
+                    <td class="littlecalendarday" valign="top" align="center">
+                        <p style="text-decoration:none">21</p>
+                    </td>
+                    <td class="littlecalendarday" valign="top" align="center">
+                        <p style="text-decoration:none">22</p>
+                    </td>
+                    <td class="littlecalendarday" valign="top" align="center">
+                        <p style="text-decoration:none">23</p>
+                    </td>
+                    <td class="littlecalendarday" valign="top" align="center">
+                        <p style="text-decoration:none">24</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="littlecalendarweek" valign="top" align="left">
+                        <p style="text-decoration:none">W21</p>
+                    </td>
+                    <td class="littlecalendarday" valign="top" align="center">
+                        <p style="text-decoration:none">25</p>
+                    </td>
+                    <td class="littlecalendarday" valign="top" align="center">
+                        <p style="text-decoration:none">26</p>
+                    </td>
+                    <td class="littlecalendarday" valign="top" align="center">
+                        <p style="text-decoration:none">27</p>
+                    </td>
+                    <td class="littlecalendarday" valign="top" align="center">
+                        <p style="text-decoration:none">28</p>
+                    </td>
+                    <td class="littlecalendarday" valign="top" align="center">
+                        <p style="text-decoration:none">29</p>
+                    </td>
+                    <td class="littlecalendarday" valign="top" align="center">
+                        <p style="text-decoration:none">30</p>
+                    </td>
+                    <td class="littlecalendarday" valign="top" align="center">
+                        <p style="text-decoration:none">31</p>
+                    </td>
+                </tr>
+
+            </table>
+
+    </table>
+    <div>
+        @RenderBody()
+    </div>
+</body>
+
+</html>
+
+
+

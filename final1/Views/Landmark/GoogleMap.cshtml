@@ -1,0 +1,122 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Geolocation</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <style>
+        html, body, #map-canvas {
+            height: 90%;
+            margin: 10px;
+            padding: 10px;
+        }
+        #panel {
+            position: absolute;
+            top: 5px;
+            left: 50%;
+            margin-left: -180px;
+            z-index: 5;
+            background-color: #fff;
+            padding: 5px;
+            border: 1px solid #999;
+        }
+    </style>
+    <!--
+    Include the maps javascript with sensor=true because this code is using a
+    sensor (a GPS locator) to determine the user's location.
+    See: https://developers.google.com/maps/documentation/javascript/tutorial#Loading_the_Maps_API
+    -->
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true"></script>
+    <script>
+    var directionsDisplay;
+    var directionsService = new google.maps.DirectionsService();
+    var map;
+    var university = new google.maps.LatLng(43.039153, -76.135116);
+    var currentLocation;
+
+    function initialize() {
+        directionsDisplay = new google.maps.DirectionsRenderer();
+        var mapOptions = {
+            zoom: 14,
+            center: university
+        }
+        map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(function (position) {
+               currentLocation = new google.maps.LatLng(position.coords.latitude,
+                                                 position.coords.longitude);
+
+                //var infowindow = new google.maps.InfoWindow({
+                //    map: map,
+                //    position: pos,
+                //    content: 'Location found using HTML5.'
+                //});
+
+                //map.setCenter(pos);
+            }, function () {
+                handleNoGeolocation(true);
+            });
+        } else {
+            // Browser doesn't support Geolocation
+            handleNoGeolocation(false);
+        }
+        directionsDisplay.setMap(map);
+    }
+
+    function handleNoGeolocation(errorFlag) {
+        if (errorFlag) {
+            var content = 'Error: The Geolocation service failed.';
+        } else {
+            var content = 'Error: Your browser doesn\'t support geolocation.';
+        }
+        var options = {
+            map: map,
+            position: new google.maps.LatLng(60, 105),
+            content: content
+        };
+        var infowindow = new google.maps.InfoWindow(options);
+        map.setCenter(options.position);
+    }
+
+    function calcRoute() {
+        var selectedMode = document.getElementById('mode').value;
+        var request = {
+            origin: currentLocation,
+            destination: university,
+            // Note that Javascript allows us to access the constant
+            // using square brackets and a string value as its
+            // "property."
+            travelMode: google.maps.TravelMode[selectedMode]
+        };
+        directionsService.route(request, function (response, status) {
+            if (status == google.maps.DirectionsStatus.OK) {
+                directionsDisplay.setDirections(response);
+            }
+        });
+    }
+
+    google.maps.event.addDomListener(window, 'load', initialize);
+
+    </script>
+
+</head>
+<body>
+    <div id="panel">
+        <b>Mode of Travel: </b>
+        <select id="mode" onchange="calcRoute();">
+            <option>Select Mode</option>
+            <option value="DRIVING">Driving</option>
+            <option value="WALKING">Walking</option>
+            <option value="BICYCLING">Bicycling</option>
+            <option value="TRANSIT">Transit</option>
+        </select>
+    </div>
+    <div id="map-canvas"></div>
+    <div>
+        @Html.ActionLink("Back to Home", "Index", "Home")
+    </div>
+</body>
+</html>
